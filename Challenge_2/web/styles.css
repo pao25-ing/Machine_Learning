@@ -4,3 +4,43 @@
 @media(max-width:980px){.desktop-nav{gap:15px}.hero-grid{grid-template-columns:1fr .75fr}.hero h1{font-size:clamp(2.9rem,5vw,4.5rem)}.orbit-illustration{transform:scale(.78);transform-origin:center}.metrics-strip>div{padding:22px 15px;gap:9px}.metrics-strip strong{font-size:1.8rem}.section-heading{gap:25px}.explorer-controls{grid-template-columns:repeat(2,1fr)}.reference-list{grid-template-columns:1fr}}
 @media(max-width:700px){.container{width:min(100% - 30px,1180px)}.header-inner{height:67px}.desktop-nav{display:none}.brand-symbol{width:32px;height:32px;font-size:20px}.brand strong{font-size:16px}.header-link{font-size:11px;padding:8px}.hero{padding-top:55px}.hero-grid{display:block;min-height:initial}.hero h1{font-size:clamp(2.7rem,11vw,4.2rem)}.hero-copy>p:not(.hero-disclaimer){font-size:14px}.orbit-illustration{height:265px;transform:scale(.7);transform-origin:top center;margin-top:38px;margin-bottom:-50px}.metrics-strip{grid-template-columns:repeat(2,1fr);margin-top:27px}.metrics-strip>div{padding:19px 12px}.metrics-strip>div:nth-child(3){border-left:0;border-top:1px solid #35515e}.metrics-strip>div:nth-child(4){border-top:1px solid #35515e}.section{padding:72px 0;scroll-margin-top:67px}.section-heading{display:block;margin-bottom:30px}.section-heading>p{margin-top:18px;font-size:14px}.context-grid,.prediction-grid,.takeaway-grid{grid-template-columns:1fr;gap:18px}.explanation-panel{padding:25px}.infographic-card{min-height:270px}.explorer{padding:15px}.explorer-controls{grid-template-columns:1fr}.explorer-stats{grid-template-columns:repeat(2,1fr)}.mini-stat{padding:12px}.graph-topline{display:block}.checkbox-label{margin-top:13px}.explorer-bottom{grid-template-columns:1fr}.state-detail{border-left:0;border-top:1px solid #315063;padding:17px 0 0}.method-grid{grid-template-columns:1fr;gap:10px}.method-card{padding:22px}.panel-topline{align-items:start;display:block}.source-note{display:block;margin-top:7px}.results-panel,.example-panel,.gallery-panel{padding:18px}.data-table{font-size:10px}.data-table td,.data-table th{padding:9px 4px}.takeaway-grid{gap:20px}.repo-panel{display:block;padding:24px}.repo-panel .btn{margin-top:22px}.footer-inner{flex-wrap:wrap}.footer-inner .brand-symbol{display:none}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+/* Rediseño basado en las composiciones espaciales del kit Figma.
+   Se mantienen los paneles del simulador y sus interacciones. */
+:root{--bg:#03070d;--bg2:#0a1420;--panel:#10212f;--line:#283947;--white:#f6f8fb;--cyan:#64dff7;--muted:#a6b3be}
+.site-header{background:#03070df0;border-bottom:1px solid #ffffff1c}
+.header-inner{height:76px}
+.desktop-nav a{color:#f5f8ff}
+.brand-symbol{border-color:#fff9;color:white}
+.header-link{border-color:#ffffff66}
+.cosmic-hero{background:#000;min-height:850px;padding-top:85px;isolation:isolate}
+.starfield{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.7;background-image:radial-gradient(circle,#fff 0.8px,transparent 1.4px),radial-gradient(circle,#d4e7ff 0.6px,transparent 1.1px),radial-gradient(circle,#91bcd3 .7px,transparent 1.4px);background-size:173px 191px,257px 229px,331px 323px;background-position:11px 8px,87px 43px,145px 119px;mask-image:linear-gradient(90deg,black,transparent 90%)}
+.cosmic-hero-grid{display:grid;grid-template-columns:1fr 1fr;min-height:535px;align-items:center;position:relative}
+.cosmic-hero .hero-copy{padding:42px 0 75px;z-index:3}
+.cosmic-hero .hero-copy .eyebrow{letter-spacing:.18em;color:#9bc8e0;font-size:10px}
+.cosmic-hero h1{font-size:clamp(3.2rem,5.5vw,6.1rem);font-weight:600;color:#fff;letter-spacing:-.073em;line-height:1.08;margin:30px 0}
+.cosmic-hero h1 em{font-style:normal;color:#c4edfa}
+.cosmic-hero .hero-copy>p:not(.hero-disclaimer){max-width:540px;color:#c2c8ce;font-size:16px}
+.cosmic-hero .btn-primary{background:#fff;color:#07111b}
+.cosmic-hero .btn-outline{border-color:#fafafaab;color:#fff}
+.cosmic-hero .hero-disclaimer{color:#9ba9b6}
+.planet-stage{position:relative;width:100%;height:570px;pointer-events:none}
+.planet-earth{position:absolute;left:0;top:50%;transform:translateY(-50%);width:min(780px,76vw);height:min(780px,76vw);border-radius:50%;background-color:#08202d;background-image:radial-gradient(ellipse at 65% 44%,transparent 24%,#000b 70%),url('https://eoimages.gsfc.nasa.gov/images/imagerecords/2000/2181/globe_east_lrg.jpg');background-position:center,center;background-size:cover,cover;box-shadow:-16px 0 41px #44cdff63,0 0 125px #239ed51c,inset -40px -8px 78px #000a;border:1px solid #98dffd77}
+.planet-outer-glow{position:absolute;left:0;top:50%;transform:translateY(-50%);width:min(780px,76vw);height:min(780px,76vw);background:radial-gradient(circle at 15% 42%,#2b94c72a,transparent 65%);filter:blur(36px)}
+.planet-halo{position:absolute;left:-22px;top:50%;transform:translateY(-50%);height:min(824px,80vw);width:min(824px,80vw);border-radius:50%;border-left:1px solid #a2edff8a;opacity:.55}
+.planet-data{position:absolute;z-index:1;background:#000b;backdrop-filter:blur(10px);color:#edf7ff;border:1px solid #83dcf655;border-radius:3px;padding:10px 14px;font-size:10px;letter-spacing:.12em;white-space:nowrap}
+.planet-data i{display:inline-block;width:5px;height:5px;border-radius:100%;background:#8fefff;margin-right:8px;vertical-align:2px}
+.planet-data-top{top:7%;right:-6%}.planet-data-bottom{bottom:3%;left:-6%}
+.scroll-discover{position:relative;z-index:3;display:flex;justify-content:center;align-items:center;flex-direction:column;gap:7px;text-decoration:none;color:white;letter-spacing:.2em;font-size:10px;margin:10px 0 24px}
+.scroll-discover span:last-child{font-size:38px;line-height:1;animation:descend 2.5s ease-in-out infinite}
+@keyframes descend{50%{transform:translateY(8px)}}
+.cosmic-hero .metrics-strip{background:#060b12b8;position:relative;margin-top:10px}
+.planet-credit{color:#8ba0aa;font-size:10px;text-align:right;margin:8px max(20px,calc((100vw - 1180px)/2)) 16px}
+.section-context{background:#070d15}.section-pipeline{background:#080e18}.section-prediction{background:#09131e}
+.conclusions{background:#070c13}.references{background:#060a11}
+.section-kicker{color:#90d8fa}.accent{color:#74d4f6}
+.menu-toggle{display:none;background:transparent;color:#fff;border:1px solid #fff6;border-radius:5px;padding:6px 10px;font-size:19px;cursor:pointer}
+.mobile-menu{display:none;background:#050d16;position:absolute;top:100%;left:0;right:0;padding:20px 28px;border-bottom:1px solid #345}
+.mobile-menu a{color:#fff;text-decoration:none;padding:11px;display:block}
+@media(max-width:1080px){.planet-earth,.planet-outer-glow{width:590px;height:590px}.planet-halo{width:614px;height:614px}.planet-stage{height:530px}.planet-data-top{right:0}}
+@media(max-width:700px){.menu-toggle{display:block}.header-link{margin-left:auto}.mobile-menu:not([hidden]){display:block}.cosmic-hero{padding-top:65px;min-height:0}.cosmic-hero-grid{display:block;min-height:0}.cosmic-hero .hero-copy{padding:30px 0 0}.cosmic-hero h1{font-size:clamp(2.9rem,10.2vw,4.8rem)}.cosmic-hero .hero-copy>p:not(.hero-disclaimer){font-size:14px}.planet-stage{height:380px;margin-top:10px;overflow:hidden}.planet-earth,.planet-outer-glow{width:min(110vw,500px);height:min(110vw,500px);left:20%;top:65%}.planet-halo{width:min(114vw,520px);height:min(114vw,520px);left:18%;top:65%}.planet-data{font-size:8px}.planet-data-top{right:0;top:12%}.planet-data-bottom{left:1%;bottom:8%}.scroll-discover{margin:0 0 25px}.planet-credit{font-size:9px;margin:12px 20px;text-align:center}}
+@media(prefers-reduced-motion:reduce){.scroll-discover span:last-child{animation:none}}
