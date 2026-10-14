@@ -44,3 +44,23 @@
 @media(max-width:1080px){.planet-earth,.planet-outer-glow{width:590px;height:590px}.planet-halo{width:614px;height:614px}.planet-stage{height:530px}.planet-data-top{right:0}}
 @media(max-width:700px){.menu-toggle{display:block}.header-link{margin-left:auto}.mobile-menu:not([hidden]){display:block}.cosmic-hero{padding-top:65px;min-height:0}.cosmic-hero-grid{display:block;min-height:0}.cosmic-hero .hero-copy{padding:30px 0 0}.cosmic-hero h1{font-size:clamp(2.9rem,10.2vw,4.8rem)}.cosmic-hero .hero-copy>p:not(.hero-disclaimer){font-size:14px}.planet-stage{height:380px;margin-top:10px;overflow:hidden}.planet-earth,.planet-outer-glow{width:min(110vw,500px);height:min(110vw,500px);left:20%;top:65%}.planet-halo{width:min(114vw,520px);height:min(114vw,520px);left:18%;top:65%}.planet-data{font-size:8px}.planet-data-top{right:0;top:12%}.planet-data-bottom{left:1%;bottom:8%}.scroll-discover{margin:0 0 25px}.planet-credit{font-size:9px;margin:12px 20px;text-align:center}}
 @media(prefers-reduced-motion:reduce){.scroll-discover span:last-child{animation:none}}
+
+/* Etiquetas y guía contextual del espacio de estados */
+.graph-explain{font-size:13px;line-height:1.75;color:#b4ccd9;background:#0a1f2c;border-left:3px solid var(--cyan);padding:13px 17px;margin:17px 0 0;border-radius:0 5px 5px 0}
+.graph-explain strong{color:#eef8ff}
+.graph-scroll .graph-node .node-caption{font-size:8px;fill:#dfebef;font-weight:500}
+.state-guide{margin-top:28px;padding:26px 0 0;border-top:1px solid #355164}
+.state-guide-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:20px}
+.state-guide-heading h3{margin:8px 0 0;font-size:22px}
+.state-guide-heading p{margin:0;max-width:410px;font-size:12px;color:#a4b7c3}
+.state-guide-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.state-guide-group{background:#081b29;border:1px solid #345166;border-radius:8px;padding:16px}
+.state-guide-group h4{font-family:var(--display);font-size:12px;color:#8ae1ee;margin:0 0 11px}
+.state-guide-items{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.state-guide-item{display:flex;align-items:center;gap:10px;text-align:left;border:1px solid #304b5e;background:#102a3a;color:#e4f1f6;border-radius:6px;padding:10px;min-width:0;cursor:pointer;transition:background .2s,border-color .2s}
+.state-guide-item:hover,.state-guide-item.active{background:#1a4651;border-color:#80e6e3}
+.state-guide-item b{font-family:var(--display);font-size:12px;color:#96e7eb;flex-shrink:0}
+.state-guide-item span{font-size:11px;line-height:1.4}
+.guide-selection{color:#adc7d0;font-size:12px;margin:17px 0 0}
+@media(max-width:700px){.state-guide{padding-top:18px}.state-guide-heading{display:block}.state-guide-heading p{margin-top:10px}.state-guide-groups{grid-template-columns:1fr;gap:12px}.state-guide-group{padding:13px}.state-guide-items{grid-template-columns:1fr 1fr}.state-guide-item{padding:9px 7px}.graph-explain{font-size:12px}}
+@media(max-width:370px){.state-guide-items{grid-template-columns:1fr}}
