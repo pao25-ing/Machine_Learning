@@ -115,7 +115,7 @@
               <option value="BF">BF · Exhaustiva</option>
             </select>
           </label>
-          <label class="field" id="goal-field"><span>ESTADO OBJETIVO</span>
+          <label class="field" id="goal-field"><span>OBJETIVO DE BÚSQUEDA (BFS / DFS)</span>
             <select id="goal-select">
               <option value="S16">S16 · Inversión gradual</option>
               <option value="S15">S15 · Ampliar investigación</option>
@@ -174,7 +174,7 @@
         <article class="method-card"><span class="method-icon">02</span><h3>DFS / Profundidad</h3><p>Utiliza una pila LIFO. Recorre primero una rama y su resultado depende del orden de los sucesores.</p></article>
         <article class="method-card"><span class="method-icon">03</span><h3>BF / Exhaustiva</h3><p>Enumera todas las rutas simples habilitadas hasta decisiones terminales o estados pendientes.</p></article>
       </div>
-      <p class="context-note"><strong>Importante:</strong> BFS minimiza pasos del grafo, no el costo económico. Los estados S15, S16 y S17 son recomendaciones hipotéticas, no inversiones ejecutadas.</p>
+      <p class="context-note"><strong>Importante:</strong> S15, S16 y S17 son <strong>estados terminales</strong>: tres resultados posibles del análisis, no tres objetivos igualmente deseables. BFS y DFS buscan el estado que selecciones (S16 por defecto en el escenario favorable); BF enumera rutas hacia los terminales habilitados. BFS minimiza transiciones, no costos económicos. Todas las decisiones son hipotéticas.</p>
     </div>
   </section>
 
