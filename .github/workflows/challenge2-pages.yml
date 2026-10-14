@@ -1,0 +1,45 @@
+name: Publicar Challenge 2 web
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Challenge_2/web/**"
+      - "Challenge_2/data/**"
+      - "Challenge_2/images/**"
+      - "Challenge_2/results/**"
+      - ".github/workflows/challenge2-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "challenge2-pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}Challenge_2/web/
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Preparar archivos públicos
+        run: |
+          mkdir -p public/Challenge_2
+          cp -r Challenge_2/web Challenge_2/data Challenge_2/images Challenge_2/results public/Challenge_2/
+          touch public/.nojekyll
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Subir sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
