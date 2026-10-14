@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081522">
+  <meta name="description" content="Explora un espacio de estados para minería de asteroides y compara modelos de regresión sobre datos sintéticos. Challenge 2 de Machine Learning, UPCH.">
+  <title>Minería de asteroides | Challenge 2 ML</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#inicio" aria-label="Volver al inicio">
+      <span class="brand-symbol" aria-hidden="true">✦</span>
+      <span><strong>ASTRA</strong><small>ML · CHALLENGE 02</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#contexto">El desafío</a>
+      <a href="#pipeline1">Pipeline 01</a>
+      <a href="#pipeline2">Pipeline 02</a>
+      <a href="#referencias">Fuentes</a>
+    </nav>
+    <a class="header-link" href="https://github.com/pao25-ing/Machine_Learning/tree/main/Challenge_2" target="_blank" rel="noopener noreferrer">Ver GitHub <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+
+<main id="contenido">
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+    <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> UNIVERSIDAD PERUANA CAYETANO HEREDIA · 2026</div>
+        <h1 id="hero-title">Explorar lo <em>desconocido.</em><br>Decidir con evidencia.</h1>
+        <p>Minería de asteroides: un estudio académico de búsqueda inteligente y regresión sobre escenarios experimentales. Del espacio de estados a la predicción de costos sintéticos.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#pipeline1">Explorar el modelo <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline" href="#pipeline2">Ver predicciones <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="hero-disclaimer"><span aria-hidden="true">ⓘ</span> Simulación didáctica. No representa misiones reales ni asesoría financiera.</p>
+      </div>
+      <div class="orbit-illustration" aria-label="Ilustración abstracta de un asteroide y sus órbitas" role="img">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="asteroid"><div class="crater crater-a"></div><div class="crater crater-b"></div><div class="crater crater-c"></div></div>
+        <div class="orbit-label orbit-label-a"><span class="signal"></span> EXPLORACIÓN / S0</div>
+        <div class="orbit-label orbit-label-b"><span class="signal amber"></span> DECISIÓN / S16</div>
+        <div class="star star-a"></div><div class="star star-b"></div><div class="star star-c"></div>
+      </div>
+    </div>
+    <div class="container metrics-strip" aria-label="Resumen del proyecto">
+      <div><strong>18</strong><span>Estados de decisión</span></div>
+      <div><strong>28</strong><span>Transiciones</span></div>
+      <div><strong>06</strong><span>Escenarios sintéticos</span></div>
+      <div><strong>240</strong><span>Registros simulados</span></div>
+    </div>
+  </section>
+
+  <section class="section section-context" id="contexto">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="section-kicker">01 / EL PROBLEMA</span><h2>Una oportunidad llena de <span class="accent">incógnitas.</span></h2></div>
+        <p>Los avances en robótica y exploración espacial motivan el análisis, pero aún hay incertidumbre sobre costos, tecnología y normas [1], [2].</p>
+      </div>
+      <div class="context-grid">
+        <article class="panel explanation-panel">
+          <h3>La pregunta de investigación</h3>
+          <p class="big-question">¿Cómo explorar estrategias de inversión y estimar costos hipotéticos de misiones espaciales mediante técnicas de IA y Machine Learning?</p>
+          <p>El proyecto usa dos enfoques complementarios: <strong>búsqueda simbólica</strong> para recorrer alternativas y <strong>aprendizaje supervisado</strong> para estudiar el comportamiento de costos sintéticos. Ninguno demuestra rentabilidad comercial.</p>
+          <div class="chips"><span>Recursos</span><span>Tecnología</span><span>Economía</span><span>Regulación</span><span>Riesgos</span></div>
+        </article>
+        <a class="infographic-card" href="../images/Infograf%C3%ADa%20sobre%20miner%C3%ADa%20de%20asteroides.png" target="_blank" rel="noopener noreferrer">
+          <img src="../images/Infograf%C3%ADa%20sobre%20miner%C3%ADa%20de%20asteroides.png" alt="Infografía recreada sobre las oportunidades y limitaciones de la minería de asteroides" loading="lazy">
+          <div class="infographic-caption"><span>INFOGRAFÍA DEL CASO</span><strong>Ver imagen completa ↗</strong></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-pipeline" id="pipeline1">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="section-kicker">02 / RAZONAMIENTO Y BÚSQUEDA</span><h2>Pipeline <span class="accent">01.</span></h2></div>
+        <p>Aplica reglas deductivas para habilitar transiciones y explora rutas con BFS, DFS o búsqueda exhaustiva (BF).</p>
+      </div>
+
+      <div class="panel explorer">
+        <div class="explorer-controls">
+          <label class="field"><span>ESCENARIO EXPERIMENTAL</span>
+            <select id="scenario-select" aria-describedby="scenario-description">
+              <option value="favorable_dos_estrategias">Condiciones favorables</option>
+              <option value="evidencia_insuficiente">Información insuficiente</option>
+              <option value="problema_tecnologico">Limitaciones tecnológicas</option>
+              <option value="economia_desfavorable">Economía desfavorable</option>
+              <option value="piloto_desfavorable_revisable">Piloto desfavorable, revisable</option>
+              <option value="datos_incompletos">Datos incompletos</option>
+            </select>
+          </label>
+          <label class="field"><span>ALGORITMO DE BÚSQUEDA</span>
+            <select id="algorithm-select">
+              <option value="BFS">BFS · Anchura</option>
+              <option value="DFS">DFS · Profundidad</option>
+              <option value="BF">BF · Exhaustiva</option>
+            </select>
+          </label>
+          <label class="field" id="goal-field"><span>ESTADO OBJETIVO</span>
+            <select id="goal-select">
+              <option value="S16">S16 · Inversión gradual</option>
+              <option value="S15">S15 · Ampliar investigación</option>
+              <option value="S17">S17 · Postergar inversión</option>
+            </select>
+          </label>
+          <label class="field hidden" id="route-field"><span>RUTA ENUMERADA</span><select id="route-select"></select></label>
+        </div>
+        <p id="scenario-description" class="scenario-description" aria-live="polite">Cargando escenario...</p>
+        <div class="explorer-stats">
+          <div class="mini-stat"><span>ESTADOS EVALUADOS</span><strong id="stat-explored">—</strong></div>
+          <div class="mini-stat"><span>TRANSICIONES RUTA</span><strong id="stat-edges">—</strong></div>
+          <div class="mini-stat"><span>RUTAS TERMINALES BF</span><strong id="stat-routes">—</strong></div>
+          <div class="mini-stat"><span>RUTAS PENDIENTES BF</span><strong id="stat-pending">—</strong></div>
+        </div>
+        <div class="graph-topline">
+          <h3>Espacio de estados <span class="muted">· S0–S17</span></h3>
+          <label class="checkbox-label"><input id="show-disabled" type="checkbox"> Mostrar transiciones no habilitadas</label>
+        </div>
+        <div class="graph-scroll" tabindex="0" aria-label="Grafo desplazable horizontalmente en pantallas pequeñas">
+          <svg id="state-graph" viewBox="0 0 1240 580" role="img" aria-label="Grafo de 18 estados con transiciones condicionadas"></svg>
+        </div>
+        <div class="graph-legend" aria-label="Leyenda del grafo">
+          <span><i class="legend-line route"></i> Ruta seleccionada</span>
+          <span><i class="legend-line enabled"></i> Transición habilitada</span>
+          <span><i class="legend-line disabled"></i> No habilitada</span>
+          <span><i class="legend-dot terminal"></i> Estado terminal</span>
+        </div>
+        <div class="explorer-bottom">
+          <div class="route-summary">
+            <span class="eyebrow-small">RUTA ENCONTRADA</span>
+            <div id="route-chips" class="route-chips" aria-live="polite">Cargando...</div>
+            <p id="route-message" class="small-muted">Selecciona un escenario.</p>
+          </div>
+          <aside class="state-detail" aria-live="polite">
+            <span class="eyebrow-small">DETALLE DEL ESTADO</span>
+            <strong id="detail-title">Selecciona un nodo</strong>
+            <p id="detail-description">Haz clic en cualquier estado del grafo para consultar su significado.</p>
+          </aside>
+        </div>
+      </div>
+      <div class="method-grid">
+        <article class="method-card"><span class="method-icon">01</span><h3>BFS / Anchura</h3><p>Utiliza una cola FIFO. Si las transiciones no tienen peso, encuentra una ruta con el menor número de pasos al objetivo.</p></article>
+        <article class="method-card"><span class="method-icon">02</span><h3>DFS / Profundidad</h3><p>Utiliza una pila LIFO. Recorre primero una rama y su resultado depende del orden de los sucesores.</p></article>
+        <article class="method-card"><span class="method-icon">03</span><h3>BF / Exhaustiva</h3><p>Enumera todas las rutas simples habilitadas hasta decisiones terminales o estados pendientes.</p></article>
+      </div>
+      <p class="context-note"><strong>Importante:</strong> BFS minimiza pasos del grafo, no el costo económico. Los estados S15, S16 y S17 son recomendaciones hipotéticas, no inversiones ejecutadas.</p>
+    </div>
+  </section>
+
+  <section class="section section-prediction" id="pipeline2">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="section-kicker">03 / APRENDIZAJE SUPERVISADO</span><h2>Pipeline <span class="accent">02.</span></h2></div>
+        <p>Regresión lineal frente a regresión polinómica de grado 2. El conjunto contiene 240 escenarios <strong>totalmente sintéticos</strong>, con 192 para entrenamiento y 48 para prueba.</p>
+      </div>
+      <div class="prediction-grid">
+        <div class="panel results-panel">
+          <div class="panel-topline"><h3>Comparación de modelos</h3><span class="source-note">Conjunto de prueba · 48 muestras</span></div>
+          <div class="metrics-tabs" role="group" aria-label="Seleccionar métrica">
+            <button type="button" class="metric-tab active" data-metric="RMSE" aria-pressed="true">RMSE</button>
+            <button type="button" class="metric-tab" data-metric="MAE" aria-pressed="false">MAE</button>
+            <button type="button" class="metric-tab" data-metric="R2" aria-pressed="false">R²</button>
+          </div>
+          <div id="metric-bars" class="metric-bars" aria-live="polite">Cargando métricas...</div>
+          <p id="metric-explanation" class="small-muted">RMSE: menor es mejor.</p>
+          <table class="data-table" aria-label="Resultados de los modelos">
+            <thead><tr><th>Modelo</th><th>MAE</th><th>RMSE</th><th>R²</th></tr></thead>
+            <tbody id="model-table"></tbody>
+          </table>
+        </div>
+        <div class="panel example-panel">
+          <div class="panel-topline"><h3>Explorar predicciones</h3><span class="source-note">48 casos de prueba</span></div>
+          <label class="field"><span>REGISTRO SINTÉTICO</span><select id="sample-select"><option>Cargando...</option></select></label>
+          <div class="sample-values" aria-live="polite">
+            <div><span>VALOR SIMULADO</span><strong id="actual-value">—</strong></div>
+            <div><span>REGRESIÓN LINEAL</span><strong id="linear-value">—</strong></div>
+            <div><span>REGRESIÓN POLINÓMICA</span><strong id="poly-value">—</strong></div>
+          </div>
+          <div class="deviation"><span>Error absoluto del registro seleccionado</span><div><span>Lineal: <b id="linear-error">—</b></span><span>Polinómica: <b id="poly-error">—</b></span></div></div>
+          <p class="small-muted">Valores en millones de USD <strong>hipotéticos</strong>. Son predicciones de los modelos entrenados en Colab, no estimaciones de misiones reales.</p>
+        </div>
+      </div>
+      <div class="panel gallery-panel">
+        <div class="panel-topline"><h3>Visualizaciones del experimento</h3><span class="source-note">Gráficos originales de Google Colab</span></div>
+        <div class="viz-tabs" role="group" aria-label="Seleccionar visualización">
+          <button class="viz-tab active" type="button" data-viz="dispersión">Datos sintéticos</button>
+          <button class="viz-tab" type="button" data-viz="rmse">RMSE</button>
+          <button class="viz-tab" type="button" data-viz="real">Real vs. predicho</button>
+          <button class="viz-tab" type="button" data-viz="residuos">Residuos</button>
+          <button class="viz-tab" type="button" data-viz="duracion">Curva de duración</button>
+        </div>
+        <a id="viz-link" href="../images/pipeline2_dispersion_sintetica.png" target="_blank" rel="noopener noreferrer">
+          <img id="viz-image" src="../images/pipeline2_dispersion_sintetica.png" alt="Dispersión de datos sintéticos del Pipeline 2" loading="lazy">
+        </a>
+        <p id="viz-caption" class="small-muted">Distribución de los costos sintéticos de los 240 escenarios.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section conclusions" id="resultados">
+    <div class="container takeaway-grid">
+      <div>
+        <span class="section-kicker">04 / CONCLUSIONES</span>
+        <h2>De los datos a una <span class="accent">decisión informada.</span></h2>
+        <p>El Pipeline 1 demuestra cómo las reglas y los algoritmos recorren alternativas sin forzar una respuesta cuando faltan datos. El Pipeline 2 muestra una ligera mejora de la regresión polinómica sobre datos sintéticos.</p>
+      </div>
+      <div class="takeaway-list">
+        <div><b>01</b><span>Una ruta más corta no implica necesariamente menor costo real.</span></div>
+        <div><b>02</b><span>La regresión polinómica alcanza un RMSE de 8.33 en el conjunto sintético de prueba.</span></div>
+        <div><b>03</b><span>Sin costos ni beneficios observados, no se puede justificar una explotación comercial.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section references" id="referencias">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="section-kicker">05 / DOCUMENTACIÓN</span><h2>Referencias <span class="accent">IEEE.</span></h2></div>
+        <p>Fuentes externas para el contexto del proyecto. Los estados, transiciones y registros sintéticos son una elaboración académica.</p>
+      </div>
+      <ol class="reference-list">
+        <li><span>[1]</span><p>The Business Research Company, “Asteroid Mining Market Report 2026,” 2026. [En línea]. Disponible en: <a href="https://www.thebusinessresearchcompany.com/report/asteroid-mining-global-market-report" target="_blank" rel="noopener noreferrer">thebusinessresearchcompany.com</a>.</p></li>
+        <li><span>[2]</span><p>E. Furfaro, “Is NASA Mining Asteroids? We Asked a NASA Scientist: Episode 41,” <em>NASA</em>, 28 jun. 2023. [En línea]. Disponible en: <a href="https://www.nasa.gov/general/is-nasa-mining-asteroids-we-asked-a-nasa-scientist-episode-41/" target="_blank" rel="noopener noreferrer">nasa.gov</a>.</p></li>
+        <li><span>[3]</span><p>ispace, inc., “ispace and Asteroid Mining Corporation Agree to Pursue Future Mission to the Moon,” 9 oct. 2024. [En línea]. Disponible en: <a href="https://www.ispace-inc.com/2024/10/09/ispace-and-asteroid-mining-corporation-agree-to-pursue-future-mission-to-the-moon/" target="_blank" rel="noopener noreferrer">ispace-inc.com</a>.</p></li>
+        <li><span>[4]</span><p>NASA, “Psyche,” <em>NASA Science</em>. [En línea]. Disponible en: <a href="https://science.nasa.gov/mission/psyche/" target="_blank" rel="noopener noreferrer">science.nasa.gov</a>.</p></li>
+        <li><span>[5]</span><p>NASA, “OSIRIS-REx,” <em>NASA Science</em>. [En línea]. Disponible en: <a href="https://science.nasa.gov/mission/osiris-rex/" target="_blank" rel="noopener noreferrer">science.nasa.gov</a>.</p></li>
+        <li><span>[6]</span><p>Oficina de las Naciones Unidas para Asuntos del Espacio Ultraterrestre (UNOOSA), “The Outer Space Treaty,” 1967. [En línea]. Disponible en: <a href="https://www.unoosa.org/oosa/SpaceLaw/outerspt.html" target="_blank" rel="noopener noreferrer">unoosa.org</a>.</p></li>
+        <li><span>[7]</span><p>S. Russell and P. Norvig, <em>Artificial Intelligence: A Modern Approach</em>, 4th ed. Pearson, 2021.</p></li>
+        <li><span>[8]</span><p>scikit-learn developers, “1.1. Linear Models,” <em>scikit-learn User Guide</em>. [En línea]. Disponible en: <a href="https://scikit-learn.org/stable/modules/linear_model.html" target="_blank" rel="noopener noreferrer">scikit-learn.org</a>.</p></li>
+        <li><span>[9]</span><p>scikit-learn developers, “PolynomialFeatures,” <em>scikit-learn API Reference</em>. [En línea]. Disponible en: <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html" target="_blank" rel="noopener noreferrer">scikit-learn.org</a>.</p></li>
+      </ol>
+      <div class="repo-panel">
+        <div><span class="eyebrow-small">CÓDIGO Y REPRODUCIBILIDAD</span><h3>Explora los notebooks en GitHub.</h3><p>Consulta los datasets, resultados, figuras y la implementación completa de ambos pipelines.</p></div>
+        <a class="btn btn-primary" href="https://github.com/pao25-ing/Machine_Learning/tree/main/Challenge_2" target="_blank" rel="noopener noreferrer">Abrir repositorio ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span class="brand-symbol" aria-hidden="true">✦</span><span>ASTRA · CHALLENGE 02</span><span>Machine Learning · UPCH · 2026</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+<div class="toast" id="status-toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
