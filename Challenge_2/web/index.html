@@ -135,8 +135,9 @@
           <h3>Espacio de estados <span class="muted">· S0–S17</span></h3>
           <label class="checkbox-label"><input id="show-disabled" type="checkbox"> Mostrar transiciones no habilitadas</label>
         </div>
+        <p class="graph-explain"><strong>¿Qué significan S0, S1, S2…?</strong> La letra <strong>S</strong> significa <strong>estado</strong>: cada código representa una situación de evaluación, no un paso obligatorio. Elige un escenario y un algoritmo para ver qué ruta se recorre. <strong>Selecciona un nodo</strong> para conocer su nombre completo.</p>
         <div class="graph-scroll" tabindex="0" aria-label="Grafo desplazable horizontalmente en pantallas pequeñas">
-          <svg id="state-graph" viewBox="0 0 1240 580" role="img" aria-label="Grafo de 18 estados con transiciones condicionadas"></svg>
+          <svg id="state-graph" viewBox="0 0 1240 590" role="img" aria-label="Grafo de 18 estados etiquetados con código y nombre abreviado, con transiciones condicionadas"></svg>
         </div>
         <div class="graph-legend" aria-label="Leyenda del grafo">
           <span><i class="legend-line route"></i> Ruta seleccionada</span>
@@ -155,6 +156,17 @@
             <strong id="detail-title">Selecciona un nodo</strong>
             <p id="detail-description">Haz clic en cualquier estado del grafo para consultar su significado.</p>
           </aside>
+        </div>
+        <div class="state-guide" aria-labelledby="state-guide-title">
+          <div class="state-guide-heading">
+            <div>
+              <span class="eyebrow-small">DICCIONARIO DEL MODELO</span>
+              <h3 id="state-guide-title">¿Qué representa cada estado?</h3>
+            </div>
+            <p>Los 18 estados están agrupados por etapa. Haz clic en cualquiera para ver su significado y resaltarlo en el grafo.</p>
+          </div>
+          <div id="state-guide-list" class="state-guide-groups"></div>
+          <p id="guide-selection" class="guide-selection" aria-live="polite">Selecciona un estado para consultar su significado.</p>
         </div>
       </div>
       <div class="method-grid">
