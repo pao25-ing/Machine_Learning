@@ -90,13 +90,15 @@ Se construyó un grafo experimental de **18 estados (S0–S17)** y **28 transici
 
 *Figura 3. Espacio de estados para la evaluación de estrategias de inversión. Elaboración propia.*
 
-### 4.1. Estados finales
+### 4.1. Estados terminales y objetivo de búsqueda
 
 | Estado | Decisión modelada |
 |---|---|
 | **S15** | Ampliar investigación |
 | **S16** | Inversión gradual en **investigación y desarrollo (I+D)** |
 | **S17** | Postergar inversión |
+
+Estos son **tres resultados terminales posibles**, no tres objetivos igualmente deseables. El **objetivo general** consiste en obtener una recomendación fundamentada según el escenario. Para comparar **BFS y DFS** se elige un estado terminal como objetivo específico (S16 en el escenario favorable); **BF** enumera las rutas habilitadas hasta los diferentes estados terminales.
 
 ### 4.2. Operadores y restricciones
 
@@ -114,7 +116,7 @@ Este pipeline emplea principalmente **razonamiento deductivo**: a partir de regl
 |---|---|
 | **BFS** | Explora por niveles y encuentra una ruta con el menor número de transiciones en un grafo no ponderado. |
 | **DFS** | Explora una rama en profundidad antes de retroceder. |
-| **BF (Brute Force)** | Enumera exhaustivamente las rutas simples válidas hacia el estado objetivo, dentro del modelo finito. |
+| **BF (Brute Force)** | Enumera exhaustivamente las rutas simples habilitadas hasta los estados terminales del modelo finito. |
 
 **Notebook:** [01_Pipeline_Razonamiento_Busqueda_Resultados.ipynb](./notebooks/01_Pipeline_Razonamiento_Busqueda_Resultados.ipynb)  
 **Google Colab:** [Abrir Pipeline 1](https://colab.research.google.com/github/pao25-ing/Machine_Learning/blob/main/Challenge_2/notebooks/01_Pipeline_Razonamiento_Busqueda_Resultados.ipynb)
