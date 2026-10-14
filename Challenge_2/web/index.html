@@ -23,40 +23,50 @@
       <a href="#pipeline2">Pipeline 02</a>
       <a href="#referencias">Fuentes</a>
     </nav>
-    <a class="header-link" href="https://github.com/pao25-ing/Machine_Learning/tree/main/Challenge_2" target="_blank" rel="noopener noreferrer">Ver GitHub <span aria-hidden="true">↗</span></a>
+    <a class="header-link" href="https://github.com/pao25-ing/Machine_Learning/tree/main/Challenge_2" target="_blank" rel="noopener noreferrer">Repositorio <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">☰</button>
   </div>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Navegación móvil" hidden>
+    <a href="#contexto">El desafío</a>
+    <a href="#pipeline1">Pipeline 01</a>
+    <a href="#pipeline2">Pipeline 02</a>
+    <a href="#referencias">Referencias IEEE</a>
+  </nav>
 </header>
 
 <main id="contenido">
-  <section class="hero" id="inicio" aria-labelledby="hero-title">
-    <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
-    <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="container hero-grid">
+  <section class="hero cosmic-hero" id="inicio" aria-labelledby="hero-title">
+    <div class="starfield" aria-hidden="true"></div>
+    <div class="planet-glow" aria-hidden="true"></div>
+    <div class="container cosmic-hero-grid">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="eyebrow-dot"></span> UNIVERSIDAD PERUANA CAYETANO HEREDIA · 2026</div>
-        <h1 id="hero-title">Explorar lo <em>desconocido.</em><br>Decidir con evidencia.</h1>
-        <p>Minería de asteroides: un estudio académico de búsqueda inteligente y regresión sobre escenarios experimentales. Del espacio de estados a la predicción de costos sintéticos.</p>
+        <div class="eyebrow"><span class="eyebrow-dot"></span> CHALLENGE 02 / MACHINE LEARNING / UPCH 2026</div>
+        <h1 id="hero-title">El espacio es<br>el comienzo.<br><em>La evidencia,</em><br>nuestra guía.</h1>
+        <p>Exploramos decisiones sobre minería de asteroides con razonamiento deductivo, algoritmos de búsqueda y regresión sobre escenarios sintéticos.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#pipeline1">Explorar el modelo <span aria-hidden="true">↗</span></a>
-          <a class="btn btn-outline" href="#pipeline2">Ver predicciones <span aria-hidden="true">→</span></a>
+          <a class="btn btn-primary" href="#pipeline1">Explorar Pipeline 01 <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline" href="#pipeline2">Descubrir Pipeline 02 <span aria-hidden="true">↗</span></a>
         </div>
-        <p class="hero-disclaimer"><span aria-hidden="true">ⓘ</span> Simulación didáctica. No representa misiones reales ni asesoría financiera.</p>
+        <p class="hero-disclaimer"><span aria-hidden="true">ⓘ</span> Experimento académico · Sin validación de inversiones o costos reales.</p>
       </div>
-      <div class="orbit-illustration" aria-label="Ilustración abstracta de un asteroide y sus órbitas" role="img">
-        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
-        <div class="asteroid"><div class="crater crater-a"></div><div class="crater crater-b"></div><div class="crater crater-c"></div></div>
-        <div class="orbit-label orbit-label-a"><span class="signal"></span> EXPLORACIÓN / S0</div>
-        <div class="orbit-label orbit-label-b"><span class="signal amber"></span> DECISIÓN / S16</div>
-        <div class="star star-a"></div><div class="star star-b"></div><div class="star star-c"></div>
+      <div class="planet-stage" role="img" aria-label="Planeta Tierra observado desde el espacio; imagen científica de NASA Blue Marble">
+        <div class="planet-outer-glow" aria-hidden="true"></div>
+        <div class="planet-earth" aria-hidden="true"></div>
+        <div class="planet-halo" aria-hidden="true"></div>
+        <span class="planet-data planet-data-top"><i></i> SECTOR ESPACIAL · EXPERIMENTAL</span>
+        <span class="planet-data planet-data-bottom"><i></i> EVALUACIÓN / IA + ML</span>
       </div>
     </div>
+    <a class="scroll-discover" href="#contexto" aria-label="Desplazarse al desafío">
+      <span>DESCUBRIR EL PROYECTO</span><span aria-hidden="true">⌄</span>
+    </a>
     <div class="container metrics-strip" aria-label="Resumen del proyecto">
       <div><strong>18</strong><span>Estados de decisión</span></div>
       <div><strong>28</strong><span>Transiciones</span></div>
       <div><strong>06</strong><span>Escenarios sintéticos</span></div>
       <div><strong>240</strong><span>Registros simulados</span></div>
     </div>
+    <p class="planet-credit">Imagen terrestre: NASA / Blue Marble (2002). Ilustración utilizada con finalidad educativa.</p>
   </section>
 
   <section class="section section-context" id="contexto">
@@ -238,6 +248,7 @@
         <li><span>[7]</span><p>S. Russell and P. Norvig, <em>Artificial Intelligence: A Modern Approach</em>, 4th ed. Pearson, 2021.</p></li>
         <li><span>[8]</span><p>scikit-learn developers, “1.1. Linear Models,” <em>scikit-learn User Guide</em>. [En línea]. Disponible en: <a href="https://scikit-learn.org/stable/modules/linear_model.html" target="_blank" rel="noopener noreferrer">scikit-learn.org</a>.</p></li>
         <li><span>[9]</span><p>scikit-learn developers, “PolynomialFeatures,” <em>scikit-learn API Reference</em>. [En línea]. Disponible en: <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html" target="_blank" rel="noopener noreferrer">scikit-learn.org</a>.</p></li>
+      <li><span>[10]</span><p>NASA Earth Observatory, “The Blue Marble,” 11 feb. 2002. Imagen científica. [En línea]. Disponible en: <a href="https://science.nasa.gov/earth/earth-observatory/the-blue-marble-2181/" target="_blank" rel="noopener noreferrer">NASA Science</a>.</p></li>
       </ol>
       <div class="repo-panel">
         <div><span class="eyebrow-small">CÓDIGO Y REPRODUCIBILIDAD</span><h3>Explora los notebooks en GitHub.</h3><p>Consulta los datasets, resultados, figuras y la implementación completa de ambos pipelines.</p></div>
