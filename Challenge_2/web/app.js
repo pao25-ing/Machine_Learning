@@ -11,6 +11,8 @@ const layout={
  S15:[1180,315],S16:[1180,195],S17:[1180,530]
 };
 let model,scenarios,comparison=[],predictions=[],pickedNode="S0",bfRoutes=[];
+const shortNames={"S0":"Oportunidad","S1":"Revisión inicial","S2":"Evidencia insuf.","S3":"Evidencia suficiente","S4":"Recursos prom.","S5":"Mineral no sustent.","S6":"Tecnología factible","S7":"Límites técnicos","S8":"Economía favorable","S9":"Economía desfav.","S10":"Riesgos aceptables","S11":"Riesgos críticos","S12":"Piloto planificado","S13":"Piloto favorable","S14":"Piloto desfav.","S15":"Más investigación","S16":"Inversión gradual","S17":"Postergar inversión"};
+const groups=[["Inicio y evidencia",["S0","S1","S2","S3"]],["Recursos y tecnología",["S4","S5","S6","S7"]],["Economía y regulación",["S8","S9","S10","S11"]],["Piloto experimental",["S12","S13","S14"]],["Decisiones finales",["S15","S16","S17"]]];
 const nodeName=k=>model.estados[k]?.nombre||k;
 function valid(t,values){
  const g=t.guarda;
@@ -62,6 +64,8 @@ function describeState(id){
  if(id==="S17")desc="Recomendación experimental de postergar una inversión en este escenario.";
  el("detail-description").textContent=desc;
  document.querySelectorAll(".graph-node").forEach(n=>n.classList.toggle("selected",n.dataset.id===id));
+ document.querySelectorAll(".state-guide-item").forEach(n=>n.classList.toggle("active",n.dataset.state===id));
+ if(el("guide-selection"))el("guide-selection").textContent=id+" — "+nodeName(id)+". "+desc;
 }
 function routeHTML(route){
  if(!route)return '<span class="small-muted">No existe ruta habilitada hacia ese objetivo.</span>';
@@ -85,13 +89,21 @@ function renderGraph(values,route){
  }
  for(const [id,meta] of Object.entries(model.estados)){
   const [x,y]=layout[id],inPath=route?.includes(id);
-  markup+='<g class="graph-node '+(meta.terminal?"terminal ":"")+(inPath?"route-node ":"")+(id===pickedNode?"selected":"")+'" data-id="'+id+'" role="button" tabindex="0" aria-label="'+esc(id+": "+meta.nombre)+'"><rect x="'+(x-32)+'" y="'+(y-22)+'" width="64" height="44"></rect><text x="'+x+'" y="'+(y+5)+'" text-anchor="middle">'+id+'</text><title>'+esc(meta.nombre)+'</title></g>';
+  markup+='<g class="graph-node '+(meta.terminal?"terminal ":"")+(inPath?"route-node ":"")+(id===pickedNode?"selected":"")+'" data-id="'+id+'" role="button" tabindex="0" aria-label="'+esc(id+": "+meta.nombre)+'"><rect x="'+(x-44)+'" y="'+(y-22)+'" width="88" height="44"></rect><text x="'+x+'" y="'+(y-5)+'" text-anchor="middle">'+id+'</text><text class="node-caption" x="'+x+'" y="'+(y+10)+'" text-anchor="middle">'+esc(shortNames[id])+'</text><title>'+esc(meta.nombre)+'</title></g>';
  }
  svg.innerHTML=markup;
  for(const n of svg.querySelectorAll(".graph-node")){
   n.addEventListener("click",()=>describeState(n.dataset.id));
   n.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();describeState(n.dataset.id)}});
  }
+}
+function renderGuide(){
+ const root=el("state-guide-list");if(!root)return;
+ root.innerHTML=groups.map(([title,ids])=>'<section class="state-guide-group"><h4>'+esc(title)+'</h4><div class="state-guide-items">'+ids.map(id=>'<button type="button" class="state-guide-item" data-state="'+id+'"><b>'+id+'</b><span>'+esc(nodeName(id))+'</span></button>').join("")+'</div></section>').join("");
+ root.querySelectorAll("button").forEach(button=>button.addEventListener("click",()=>{
+  describeState(button.dataset.state);
+  el("state-graph").scrollIntoView({behavior:"smooth",block:"center"});
+ }));
 }
 function updateExplorer(){
  const scenarioKey=el("scenario-select").value;
@@ -172,7 +184,7 @@ async function start(){
    renderComparison();
   }));
   document.querySelectorAll(".viz-tab").forEach(b=>b.addEventListener("click",()=>updateViz(b.dataset.viz)));
-  updateExplorer();renderComparison();updateSample();
+  renderGuide();updateExplorer();renderComparison();updateSample();
  }catch(error){
   console.error(error);
   el("scenario-description").textContent="No se pudieron cargar los datos. Abre la web desde GitHub Pages o un servidor local (no con file://).";
