@@ -1,0 +1,4 @@
+﻿Algoritmo,Estados evaluados,Rutas terminales enumeradas,Transiciones de la ruta,Ruta encontrada
+BFS,9,1,7.0,S0 → S1 → S3 → S4 → S6 → S8 → S10 → S16
+DFS,10,1,9.0,S0 → S1 → S3 → S4 → S6 → S8 → S10 → S12 → S13 → S16
+BF (exhaustiva),11,2,,2 terminal(es); 0 pendiente(s)

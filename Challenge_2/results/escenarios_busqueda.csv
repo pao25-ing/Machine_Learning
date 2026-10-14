@@ -1,0 +1,7 @@
+escenario,rutas_completas,rutas_pendientes,decision
+Condiciones favorables,2,0,Inversión gradual en I+D (S16)
+Información insuficiente,1,0,Ampliar investigación (S15)
+Limitaciones técnicas,1,0,Postergar inversión (S17)
+Economía desfavorable,1,0,Postergar inversión (S17)
+Piloto desfavorable,1,0,Ampliar investigación (S15)
+Datos incompletos,0,1,Pendiente: sin decisión

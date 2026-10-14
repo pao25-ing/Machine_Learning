@@ -1,0 +1,4 @@
+Modelo,MAE,RMSE,R2
+Referencia (promedio),40.10167,49.92552,-0.00324
+Regresión lineal,7.05944,8.63808,0.96997
+Regresión polinómica (grado 2),6.72153,8.32935,0.97208
