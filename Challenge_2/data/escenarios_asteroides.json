@@ -1,0 +1,64 @@
+{
+  "advertencia": "Datos cualitativos SINTÉTICOS para verificar el modelo; no conclusiones de misiones reales",
+  "escenarios": {
+    "favorable_dos_estrategias": {
+      "descripcion": "Supuesto favorable con posibilidad de I+D gradual o prueba piloto; se pueden explorar ambas rutas.",
+      "variables": {
+        "evidencia_inicial": "suficiente",
+        "potencial_recursos": "prometedor",
+        "factibilidad_tecnica": "factible",
+        "viabilidad_economica": "favorable",
+        "condiciones_legal_riesgo": "aceptables",
+        "opcion_inversion": "ambas",
+        "resultado_piloto": "favorable"
+      }
+    },
+    "evidencia_insuficiente": {
+      "descripcion": "No hay evidencia suficiente incluso después de ampliar la investigación.",
+      "variables": {
+        "evidencia_inicial": "insuficiente",
+        "evidencia_ampliada": "insuficiente"
+      }
+    },
+    "problema_tecnologico": {
+      "descripcion": "Recursos prometedores, pero existe un impedimento técnico no superable en el escenario.",
+      "variables": {
+        "evidencia_inicial": "suficiente",
+        "potencial_recursos": "prometedor",
+        "factibilidad_tecnica": "limitaciones_criticas",
+        "brecha_tecnica_superable": false
+      }
+    },
+    "economia_desfavorable": {
+      "descripcion": "Viabilidad técnica supuesta; condiciones económicas desfavorables que no merece la pena revisar.",
+      "variables": {
+        "evidencia_inicial": "suficiente",
+        "potencial_recursos": "prometedor",
+        "factibilidad_tecnica": "factible",
+        "viabilidad_economica": "desfavorable",
+        "evaluacion_economica_revisable": false
+      }
+    },
+    "piloto_desfavorable_revisable": {
+      "descripcion": "La prueba piloto hipotética es desfavorable y se recomienda ampliar investigación.",
+      "variables": {
+        "evidencia_inicial": "suficiente",
+        "potencial_recursos": "prometedor",
+        "factibilidad_tecnica": "factible",
+        "viabilidad_economica": "favorable",
+        "condiciones_legal_riesgo": "aceptables",
+        "opcion_inversion": "piloto",
+        "resultado_piloto": "desfavorable",
+        "revisar_piloto": true
+      }
+    },
+    "datos_incompletos": {
+      "descripcion": "Sin dato de economía, la exploración se detiene sin forzar una recomendación.",
+      "variables": {
+        "evidencia_inicial": "suficiente",
+        "potencial_recursos": "prometedor",
+        "factibilidad_tecnica": "factible"
+      }
+    }
+  }
+}

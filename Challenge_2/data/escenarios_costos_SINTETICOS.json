@@ -1,0 +1,1926 @@
+{
+  "tipo_datos": "SINTETICOS - ESCENARIOS EXPERIMENTALES",
+  "advertencia": "Los valores no representan costos de misiones reales.",
+  "registros": [
+    {
+      "id_escenario": "SIM-001",
+      "duracion_meses": 15,
+      "masa_equipo_kg": 407,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 90,
+      "costo_simulado_musd": 150.35
+    },
+    {
+      "id_escenario": "SIM-002",
+      "duracion_meses": 22,
+      "masa_equipo_kg": 510,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 95,
+      "costo_simulado_musd": 179.41
+    },
+    {
+      "id_escenario": "SIM-003",
+      "duracion_meses": 54,
+      "masa_equipo_kg": 582,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 81,
+      "costo_simulado_musd": 276.35
+    },
+    {
+      "id_escenario": "SIM-004",
+      "duracion_meses": 15,
+      "masa_equipo_kg": 374,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 82,
+      "costo_simulado_musd": 121.44
+    },
+    {
+      "id_escenario": "SIM-005",
+      "duracion_meses": 8,
+      "masa_equipo_kg": 582,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 51,
+      "costo_simulado_musd": 175.24
+    },
+    {
+      "id_escenario": "SIM-006",
+      "duracion_meses": 30,
+      "masa_equipo_kg": 465,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 34,
+      "costo_simulado_musd": 208.19
+    },
+    {
+      "id_escenario": "SIM-007",
+      "duracion_meses": 54,
+      "masa_equipo_kg": 428,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 93,
+      "costo_simulado_musd": 183.49
+    },
+    {
+      "id_escenario": "SIM-008",
+      "duracion_meses": 49,
+      "masa_equipo_kg": 396,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 72,
+      "costo_simulado_musd": 179.35
+    },
+    {
+      "id_escenario": "SIM-009",
+      "duracion_meses": 31,
+      "masa_equipo_kg": 552,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 36,
+      "costo_simulado_musd": 205.78
+    },
+    {
+      "id_escenario": "SIM-010",
+      "duracion_meses": 39,
+      "masa_equipo_kg": 199,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 89,
+      "costo_simulado_musd": 152.19
+    },
+    {
+      "id_escenario": "SIM-011",
+      "duracion_meses": 59,
+      "masa_equipo_kg": 582,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 92,
+      "costo_simulado_musd": 273.68
+    },
+    {
+      "id_escenario": "SIM-012",
+      "duracion_meses": 38,
+      "masa_equipo_kg": 105,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 53,
+      "costo_simulado_musd": 153.64
+    },
+    {
+      "id_escenario": "SIM-013",
+      "duracion_meses": 57,
+      "masa_equipo_kg": 212,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 91,
+      "costo_simulado_musd": 151.92
+    },
+    {
+      "id_escenario": "SIM-014",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 519,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 43,
+      "costo_simulado_musd": 232.15
+    },
+    {
+      "id_escenario": "SIM-015",
+      "duracion_meses": 38,
+      "masa_equipo_kg": 314,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 83,
+      "costo_simulado_musd": 122.86
+    },
+    {
+      "id_escenario": "SIM-016",
+      "duracion_meses": 42,
+      "masa_equipo_kg": 337,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 76,
+      "costo_simulado_musd": 177.6
+    },
+    {
+      "id_escenario": "SIM-017",
+      "duracion_meses": 50,
+      "masa_equipo_kg": 395,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 89,
+      "costo_simulado_musd": 212.76
+    },
+    {
+      "id_escenario": "SIM-018",
+      "duracion_meses": 33,
+      "masa_equipo_kg": 523,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 168.72
+    },
+    {
+      "id_escenario": "SIM-019",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 89,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 44,
+      "costo_simulado_musd": 67.42
+    },
+    {
+      "id_escenario": "SIM-020",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 581,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 50,
+      "costo_simulado_musd": 210.06
+    },
+    {
+      "id_escenario": "SIM-021",
+      "duracion_meses": 24,
+      "masa_equipo_kg": 577,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 90,
+      "costo_simulado_musd": 207.75
+    },
+    {
+      "id_escenario": "SIM-022",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 114,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 65,
+      "costo_simulado_musd": 104.62
+    },
+    {
+      "id_escenario": "SIM-023",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 180,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 90,
+      "costo_simulado_musd": 137.12
+    },
+    {
+      "id_escenario": "SIM-024",
+      "duracion_meses": 19,
+      "masa_equipo_kg": 515,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 33,
+      "costo_simulado_musd": 209.19
+    },
+    {
+      "id_escenario": "SIM-025",
+      "duracion_meses": 49,
+      "masa_equipo_kg": 352,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 72,
+      "costo_simulado_musd": 208.23
+    },
+    {
+      "id_escenario": "SIM-026",
+      "duracion_meses": 34,
+      "masa_equipo_kg": 229,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 26,
+      "costo_simulado_musd": 156.42
+    },
+    {
+      "id_escenario": "SIM-027",
+      "duracion_meses": 13,
+      "masa_equipo_kg": 80,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 94,
+      "costo_simulado_musd": 92.76
+    },
+    {
+      "id_escenario": "SIM-028",
+      "duracion_meses": 58,
+      "masa_equipo_kg": 283,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 40,
+      "costo_simulado_musd": 179.75
+    },
+    {
+      "id_escenario": "SIM-029",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 125,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 59,
+      "costo_simulado_musd": 157.61
+    },
+    {
+      "id_escenario": "SIM-030",
+      "duracion_meses": 17,
+      "masa_equipo_kg": 85,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 87,
+      "costo_simulado_musd": 71.97
+    },
+    {
+      "id_escenario": "SIM-031",
+      "duracion_meses": 52,
+      "masa_equipo_kg": 218,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 53,
+      "costo_simulado_musd": 185.46
+    },
+    {
+      "id_escenario": "SIM-032",
+      "duracion_meses": 46,
+      "masa_equipo_kg": 596,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 35,
+      "costo_simulado_musd": 243.79
+    },
+    {
+      "id_escenario": "SIM-033",
+      "duracion_meses": 34,
+      "masa_equipo_kg": 243,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 64,
+      "costo_simulado_musd": 113.68
+    },
+    {
+      "id_escenario": "SIM-034",
+      "duracion_meses": 17,
+      "masa_equipo_kg": 281,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 26,
+      "costo_simulado_musd": 133.11
+    },
+    {
+      "id_escenario": "SIM-035",
+      "duracion_meses": 14,
+      "masa_equipo_kg": 478,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 31,
+      "costo_simulado_musd": 144.31
+    },
+    {
+      "id_escenario": "SIM-036",
+      "duracion_meses": 57,
+      "masa_equipo_kg": 106,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 90,
+      "costo_simulado_musd": 120.91
+    },
+    {
+      "id_escenario": "SIM-037",
+      "duracion_meses": 38,
+      "masa_equipo_kg": 415,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 82,
+      "costo_simulado_musd": 173.54
+    },
+    {
+      "id_escenario": "SIM-038",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 254,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 91,
+      "costo_simulado_musd": 131.17
+    },
+    {
+      "id_escenario": "SIM-039",
+      "duracion_meses": 21,
+      "masa_equipo_kg": 524,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 68,
+      "costo_simulado_musd": 195.95
+    },
+    {
+      "id_escenario": "SIM-040",
+      "duracion_meses": 53,
+      "masa_equipo_kg": 151,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 76,
+      "costo_simulado_musd": 180.69
+    },
+    {
+      "id_escenario": "SIM-041",
+      "duracion_meses": 10,
+      "masa_equipo_kg": 280,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 30,
+      "costo_simulado_musd": 89.14
+    },
+    {
+      "id_escenario": "SIM-042",
+      "duracion_meses": 11,
+      "masa_equipo_kg": 542,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 86,
+      "costo_simulado_musd": 141.35
+    },
+    {
+      "id_escenario": "SIM-043",
+      "duracion_meses": 53,
+      "masa_equipo_kg": 100,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 92,
+      "costo_simulado_musd": 137.52
+    },
+    {
+      "id_escenario": "SIM-044",
+      "duracion_meses": 16,
+      "masa_equipo_kg": 244,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 74,
+      "costo_simulado_musd": 114.88
+    },
+    {
+      "id_escenario": "SIM-045",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 515,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 78,
+      "costo_simulado_musd": 210.24
+    },
+    {
+      "id_escenario": "SIM-046",
+      "duracion_meses": 19,
+      "masa_equipo_kg": 432,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 58,
+      "costo_simulado_musd": 134.96
+    },
+    {
+      "id_escenario": "SIM-047",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 589,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 61,
+      "costo_simulado_musd": 225.49
+    },
+    {
+      "id_escenario": "SIM-048",
+      "duracion_meses": 38,
+      "masa_equipo_kg": 535,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 92,
+      "costo_simulado_musd": 182.55
+    },
+    {
+      "id_escenario": "SIM-049",
+      "duracion_meses": 58,
+      "masa_equipo_kg": 360,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 52,
+      "costo_simulado_musd": 186.61
+    },
+    {
+      "id_escenario": "SIM-050",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 418,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 94,
+      "costo_simulado_musd": 207.53
+    },
+    {
+      "id_escenario": "SIM-051",
+      "duracion_meses": 58,
+      "masa_equipo_kg": 266,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 70,
+      "costo_simulado_musd": 167.81
+    },
+    {
+      "id_escenario": "SIM-052",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 301,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 60,
+      "costo_simulado_musd": 147.98
+    },
+    {
+      "id_escenario": "SIM-053",
+      "duracion_meses": 43,
+      "masa_equipo_kg": 299,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 173.41
+    },
+    {
+      "id_escenario": "SIM-054",
+      "duracion_meses": 16,
+      "masa_equipo_kg": 183,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 37,
+      "costo_simulado_musd": 96.54
+    },
+    {
+      "id_escenario": "SIM-055",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 255,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 32,
+      "costo_simulado_musd": 118.55
+    },
+    {
+      "id_escenario": "SIM-056",
+      "duracion_meses": 19,
+      "masa_equipo_kg": 188,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 65,
+      "costo_simulado_musd": 112.86
+    },
+    {
+      "id_escenario": "SIM-057",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 145,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 65,
+      "costo_simulado_musd": 107.89
+    },
+    {
+      "id_escenario": "SIM-058",
+      "duracion_meses": 8,
+      "masa_equipo_kg": 501,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 78,
+      "costo_simulado_musd": 163.0
+    },
+    {
+      "id_escenario": "SIM-059",
+      "duracion_meses": 8,
+      "masa_equipo_kg": 138,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 55,
+      "costo_simulado_musd": 65.26
+    },
+    {
+      "id_escenario": "SIM-060",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 438,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 83,
+      "costo_simulado_musd": 207.49
+    },
+    {
+      "id_escenario": "SIM-061",
+      "duracion_meses": 46,
+      "masa_equipo_kg": 118,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 65,
+      "costo_simulado_musd": 138.79
+    },
+    {
+      "id_escenario": "SIM-062",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 202,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 89,
+      "costo_simulado_musd": 118.99
+    },
+    {
+      "id_escenario": "SIM-063",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 337,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 206.06
+    },
+    {
+      "id_escenario": "SIM-064",
+      "duracion_meses": 55,
+      "masa_equipo_kg": 527,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 61,
+      "costo_simulado_musd": 213.9
+    },
+    {
+      "id_escenario": "SIM-065",
+      "duracion_meses": 52,
+      "masa_equipo_kg": 418,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 40,
+      "costo_simulado_musd": 205.83
+    },
+    {
+      "id_escenario": "SIM-066",
+      "duracion_meses": 45,
+      "masa_equipo_kg": 100,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 68,
+      "costo_simulado_musd": 164.27
+    },
+    {
+      "id_escenario": "SIM-067",
+      "duracion_meses": 20,
+      "masa_equipo_kg": 137,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 45,
+      "costo_simulado_musd": 71.07
+    },
+    {
+      "id_escenario": "SIM-068",
+      "duracion_meses": 16,
+      "masa_equipo_kg": 442,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 63,
+      "costo_simulado_musd": 172.79
+    },
+    {
+      "id_escenario": "SIM-069",
+      "duracion_meses": 9,
+      "masa_equipo_kg": 514,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 41,
+      "costo_simulado_musd": 183.66
+    },
+    {
+      "id_escenario": "SIM-070",
+      "duracion_meses": 23,
+      "masa_equipo_kg": 511,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 41,
+      "costo_simulado_musd": 175.13
+    },
+    {
+      "id_escenario": "SIM-071",
+      "duracion_meses": 19,
+      "masa_equipo_kg": 109,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 75,
+      "costo_simulado_musd": 126.17
+    },
+    {
+      "id_escenario": "SIM-072",
+      "duracion_meses": 22,
+      "masa_equipo_kg": 103,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 60,
+      "costo_simulado_musd": 60.33
+    },
+    {
+      "id_escenario": "SIM-073",
+      "duracion_meses": 42,
+      "masa_equipo_kg": 570,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 58,
+      "costo_simulado_musd": 242.15
+    },
+    {
+      "id_escenario": "SIM-074",
+      "duracion_meses": 48,
+      "masa_equipo_kg": 171,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 95,
+      "costo_simulado_musd": 132.19
+    },
+    {
+      "id_escenario": "SIM-075",
+      "duracion_meses": 10,
+      "masa_equipo_kg": 351,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 91,
+      "costo_simulado_musd": 122.21
+    },
+    {
+      "id_escenario": "SIM-076",
+      "duracion_meses": 50,
+      "masa_equipo_kg": 91,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 85,
+      "costo_simulado_musd": 118.89
+    },
+    {
+      "id_escenario": "SIM-077",
+      "duracion_meses": 11,
+      "masa_equipo_kg": 307,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 44,
+      "costo_simulado_musd": 160.04
+    },
+    {
+      "id_escenario": "SIM-078",
+      "duracion_meses": 33,
+      "masa_equipo_kg": 448,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 60,
+      "costo_simulado_musd": 156.53
+    },
+    {
+      "id_escenario": "SIM-079",
+      "duracion_meses": 29,
+      "masa_equipo_kg": 285,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 70,
+      "costo_simulado_musd": 124.37
+    },
+    {
+      "id_escenario": "SIM-080",
+      "duracion_meses": 59,
+      "masa_equipo_kg": 565,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 64,
+      "costo_simulado_musd": 286.72
+    },
+    {
+      "id_escenario": "SIM-081",
+      "duracion_meses": 20,
+      "masa_equipo_kg": 242,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 44,
+      "costo_simulado_musd": 127.08
+    },
+    {
+      "id_escenario": "SIM-082",
+      "duracion_meses": 30,
+      "masa_equipo_kg": 498,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 47,
+      "costo_simulado_musd": 162.37
+    },
+    {
+      "id_escenario": "SIM-083",
+      "duracion_meses": 13,
+      "masa_equipo_kg": 386,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 94,
+      "costo_simulado_musd": 131.81
+    },
+    {
+      "id_escenario": "SIM-084",
+      "duracion_meses": 55,
+      "masa_equipo_kg": 183,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 93,
+      "costo_simulado_musd": 134.11
+    },
+    {
+      "id_escenario": "SIM-085",
+      "duracion_meses": 21,
+      "masa_equipo_kg": 394,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 30,
+      "costo_simulado_musd": 182.36
+    },
+    {
+      "id_escenario": "SIM-086",
+      "duracion_meses": 41,
+      "masa_equipo_kg": 241,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 38,
+      "costo_simulado_musd": 170.86
+    },
+    {
+      "id_escenario": "SIM-087",
+      "duracion_meses": 13,
+      "masa_equipo_kg": 225,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 67,
+      "costo_simulado_musd": 107.21
+    },
+    {
+      "id_escenario": "SIM-088",
+      "duracion_meses": 55,
+      "masa_equipo_kg": 274,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 168.05
+    },
+    {
+      "id_escenario": "SIM-089",
+      "duracion_meses": 26,
+      "masa_equipo_kg": 372,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 42,
+      "costo_simulado_musd": 156.25
+    },
+    {
+      "id_escenario": "SIM-090",
+      "duracion_meses": 55,
+      "masa_equipo_kg": 89,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 86,
+      "costo_simulado_musd": 172.51
+    },
+    {
+      "id_escenario": "SIM-091",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 444,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 46,
+      "costo_simulado_musd": 204.55
+    },
+    {
+      "id_escenario": "SIM-092",
+      "duracion_meses": 28,
+      "masa_equipo_kg": 228,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 28,
+      "costo_simulado_musd": 111.87
+    },
+    {
+      "id_escenario": "SIM-093",
+      "duracion_meses": 15,
+      "masa_equipo_kg": 82,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 33,
+      "costo_simulado_musd": 81.61
+    },
+    {
+      "id_escenario": "SIM-094",
+      "duracion_meses": 17,
+      "masa_equipo_kg": 334,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 38,
+      "costo_simulado_musd": 123.69
+    },
+    {
+      "id_escenario": "SIM-095",
+      "duracion_meses": 28,
+      "masa_equipo_kg": 576,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 34,
+      "costo_simulado_musd": 172.53
+    },
+    {
+      "id_escenario": "SIM-096",
+      "duracion_meses": 49,
+      "masa_equipo_kg": 200,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 85,
+      "costo_simulado_musd": 161.83
+    },
+    {
+      "id_escenario": "SIM-097",
+      "duracion_meses": 39,
+      "masa_equipo_kg": 203,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 91,
+      "costo_simulado_musd": 157.73
+    },
+    {
+      "id_escenario": "SIM-098",
+      "duracion_meses": 60,
+      "masa_equipo_kg": 546,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 69,
+      "costo_simulado_musd": 289.36
+    },
+    {
+      "id_escenario": "SIM-099",
+      "duracion_meses": 13,
+      "masa_equipo_kg": 150,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 88,
+      "costo_simulado_musd": 65.3
+    },
+    {
+      "id_escenario": "SIM-100",
+      "duracion_meses": 50,
+      "masa_equipo_kg": 311,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 66,
+      "costo_simulado_musd": 159.16
+    },
+    {
+      "id_escenario": "SIM-101",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 598,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 67,
+      "costo_simulado_musd": 235.36
+    },
+    {
+      "id_escenario": "SIM-102",
+      "duracion_meses": 50,
+      "masa_equipo_kg": 585,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 65,
+      "costo_simulado_musd": 274.45
+    },
+    {
+      "id_escenario": "SIM-103",
+      "duracion_meses": 19,
+      "masa_equipo_kg": 281,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 53,
+      "costo_simulado_musd": 146.63
+    },
+    {
+      "id_escenario": "SIM-104",
+      "duracion_meses": 56,
+      "masa_equipo_kg": 438,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 73,
+      "costo_simulado_musd": 215.97
+    },
+    {
+      "id_escenario": "SIM-105",
+      "duracion_meses": 21,
+      "masa_equipo_kg": 238,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 41,
+      "costo_simulado_musd": 121.54
+    },
+    {
+      "id_escenario": "SIM-106",
+      "duracion_meses": 15,
+      "masa_equipo_kg": 407,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 81,
+      "costo_simulado_musd": 144.01
+    },
+    {
+      "id_escenario": "SIM-107",
+      "duracion_meses": 24,
+      "masa_equipo_kg": 228,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 59,
+      "costo_simulado_musd": 143.59
+    },
+    {
+      "id_escenario": "SIM-108",
+      "duracion_meses": 43,
+      "masa_equipo_kg": 206,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 168.49
+    },
+    {
+      "id_escenario": "SIM-109",
+      "duracion_meses": 44,
+      "masa_equipo_kg": 549,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 76,
+      "costo_simulado_musd": 247.8
+    },
+    {
+      "id_escenario": "SIM-110",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 499,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 37,
+      "costo_simulado_musd": 228.65
+    },
+    {
+      "id_escenario": "SIM-111",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 586,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 91,
+      "costo_simulado_musd": 271.12
+    },
+    {
+      "id_escenario": "SIM-112",
+      "duracion_meses": 29,
+      "masa_equipo_kg": 141,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 47,
+      "costo_simulado_musd": 131.38
+    },
+    {
+      "id_escenario": "SIM-113",
+      "duracion_meses": 8,
+      "masa_equipo_kg": 353,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 57,
+      "costo_simulado_musd": 156.05
+    },
+    {
+      "id_escenario": "SIM-114",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 504,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 86,
+      "costo_simulado_musd": 235.29
+    },
+    {
+      "id_escenario": "SIM-115",
+      "duracion_meses": 29,
+      "masa_equipo_kg": 92,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 53,
+      "costo_simulado_musd": 70.88
+    },
+    {
+      "id_escenario": "SIM-116",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 414,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 51,
+      "costo_simulado_musd": 123.78
+    },
+    {
+      "id_escenario": "SIM-117",
+      "duracion_meses": 58,
+      "masa_equipo_kg": 548,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 60,
+      "costo_simulado_musd": 271.29
+    },
+    {
+      "id_escenario": "SIM-118",
+      "duracion_meses": 43,
+      "masa_equipo_kg": 272,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 26,
+      "costo_simulado_musd": 178.08
+    },
+    {
+      "id_escenario": "SIM-119",
+      "duracion_meses": 14,
+      "masa_equipo_kg": 239,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 53,
+      "costo_simulado_musd": 113.33
+    },
+    {
+      "id_escenario": "SIM-120",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 254,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 35,
+      "costo_simulado_musd": 170.14
+    },
+    {
+      "id_escenario": "SIM-121",
+      "duracion_meses": 44,
+      "masa_equipo_kg": 507,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 42,
+      "costo_simulado_musd": 243.33
+    },
+    {
+      "id_escenario": "SIM-122",
+      "duracion_meses": 34,
+      "masa_equipo_kg": 125,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 95,
+      "costo_simulado_musd": 104.53
+    },
+    {
+      "id_escenario": "SIM-123",
+      "duracion_meses": 54,
+      "masa_equipo_kg": 316,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 68,
+      "costo_simulado_musd": 195.41
+    },
+    {
+      "id_escenario": "SIM-124",
+      "duracion_meses": 38,
+      "masa_equipo_kg": 341,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 66,
+      "costo_simulado_musd": 179.26
+    },
+    {
+      "id_escenario": "SIM-125",
+      "duracion_meses": 24,
+      "masa_equipo_kg": 117,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 42,
+      "costo_simulado_musd": 129.19
+    },
+    {
+      "id_escenario": "SIM-126",
+      "duracion_meses": 24,
+      "masa_equipo_kg": 557,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 72,
+      "costo_simulado_musd": 181.08
+    },
+    {
+      "id_escenario": "SIM-127",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 489,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 52,
+      "costo_simulado_musd": 161.68
+    },
+    {
+      "id_escenario": "SIM-128",
+      "duracion_meses": 12,
+      "masa_equipo_kg": 385,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 36,
+      "costo_simulado_musd": 140.82
+    },
+    {
+      "id_escenario": "SIM-129",
+      "duracion_meses": 40,
+      "masa_equipo_kg": 412,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 65,
+      "costo_simulado_musd": 187.75
+    },
+    {
+      "id_escenario": "SIM-130",
+      "duracion_meses": 12,
+      "masa_equipo_kg": 258,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 92,
+      "costo_simulado_musd": 97.93
+    },
+    {
+      "id_escenario": "SIM-131",
+      "duracion_meses": 41,
+      "masa_equipo_kg": 472,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 52,
+      "costo_simulado_musd": 180.57
+    },
+    {
+      "id_escenario": "SIM-132",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 600,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 41,
+      "costo_simulado_musd": 248.23
+    },
+    {
+      "id_escenario": "SIM-133",
+      "duracion_meses": 40,
+      "masa_equipo_kg": 296,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 87,
+      "costo_simulado_musd": 161.86
+    },
+    {
+      "id_escenario": "SIM-134",
+      "duracion_meses": 28,
+      "masa_equipo_kg": 452,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 93,
+      "costo_simulado_musd": 189.29
+    },
+    {
+      "id_escenario": "SIM-135",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 273,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 95,
+      "costo_simulado_musd": 147.94
+    },
+    {
+      "id_escenario": "SIM-136",
+      "duracion_meses": 17,
+      "masa_equipo_kg": 214,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 32,
+      "costo_simulado_musd": 127.61
+    },
+    {
+      "id_escenario": "SIM-137",
+      "duracion_meses": 59,
+      "masa_equipo_kg": 115,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 63,
+      "costo_simulado_musd": 170.17
+    },
+    {
+      "id_escenario": "SIM-138",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 445,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 83,
+      "costo_simulado_musd": 147.93
+    },
+    {
+      "id_escenario": "SIM-139",
+      "duracion_meses": 18,
+      "masa_equipo_kg": 271,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 48,
+      "costo_simulado_musd": 90.62
+    },
+    {
+      "id_escenario": "SIM-140",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 581,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 28,
+      "costo_simulado_musd": 257.01
+    },
+    {
+      "id_escenario": "SIM-141",
+      "duracion_meses": 27,
+      "masa_equipo_kg": 306,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 71,
+      "costo_simulado_musd": 162.11
+    },
+    {
+      "id_escenario": "SIM-142",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 496,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 66,
+      "costo_simulado_musd": 208.47
+    },
+    {
+      "id_escenario": "SIM-143",
+      "duracion_meses": 17,
+      "masa_equipo_kg": 600,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 85,
+      "costo_simulado_musd": 172.89
+    },
+    {
+      "id_escenario": "SIM-144",
+      "duracion_meses": 45,
+      "masa_equipo_kg": 343,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 28,
+      "costo_simulado_musd": 178.39
+    },
+    {
+      "id_escenario": "SIM-145",
+      "duracion_meses": 18,
+      "masa_equipo_kg": 595,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 36,
+      "costo_simulado_musd": 177.03
+    },
+    {
+      "id_escenario": "SIM-146",
+      "duracion_meses": 18,
+      "masa_equipo_kg": 326,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 88,
+      "costo_simulado_musd": 118.03
+    },
+    {
+      "id_escenario": "SIM-147",
+      "duracion_meses": 21,
+      "masa_equipo_kg": 461,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 93,
+      "costo_simulado_musd": 156.96
+    },
+    {
+      "id_escenario": "SIM-148",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 550,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 51,
+      "costo_simulado_musd": 207.42
+    },
+    {
+      "id_escenario": "SIM-149",
+      "duracion_meses": 27,
+      "masa_equipo_kg": 531,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 86,
+      "costo_simulado_musd": 226.67
+    },
+    {
+      "id_escenario": "SIM-150",
+      "duracion_meses": 55,
+      "masa_equipo_kg": 280,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 35,
+      "costo_simulado_musd": 172.64
+    },
+    {
+      "id_escenario": "SIM-151",
+      "duracion_meses": 30,
+      "masa_equipo_kg": 241,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 47,
+      "costo_simulado_musd": 108.28
+    },
+    {
+      "id_escenario": "SIM-152",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 111,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 43,
+      "costo_simulado_musd": 150.07
+    },
+    {
+      "id_escenario": "SIM-153",
+      "duracion_meses": 49,
+      "masa_equipo_kg": 355,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 71,
+      "costo_simulado_musd": 176.5
+    },
+    {
+      "id_escenario": "SIM-154",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 359,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 87,
+      "costo_simulado_musd": 166.81
+    },
+    {
+      "id_escenario": "SIM-155",
+      "duracion_meses": 16,
+      "masa_equipo_kg": 190,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 53,
+      "costo_simulado_musd": 99.01
+    },
+    {
+      "id_escenario": "SIM-156",
+      "duracion_meses": 46,
+      "masa_equipo_kg": 129,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 66,
+      "costo_simulado_musd": 159.85
+    },
+    {
+      "id_escenario": "SIM-157",
+      "duracion_meses": 56,
+      "masa_equipo_kg": 340,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 84,
+      "costo_simulado_musd": 160.69
+    },
+    {
+      "id_escenario": "SIM-158",
+      "duracion_meses": 58,
+      "masa_equipo_kg": 180,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 174.84
+    },
+    {
+      "id_escenario": "SIM-159",
+      "duracion_meses": 10,
+      "masa_equipo_kg": 162,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 30,
+      "costo_simulado_musd": 135.16
+    },
+    {
+      "id_escenario": "SIM-160",
+      "duracion_meses": 44,
+      "masa_equipo_kg": 191,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 83,
+      "costo_simulado_musd": 162.52
+    },
+    {
+      "id_escenario": "SIM-161",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 570,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 27,
+      "costo_simulado_musd": 266.93
+    },
+    {
+      "id_escenario": "SIM-162",
+      "duracion_meses": 9,
+      "masa_equipo_kg": 187,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 36,
+      "costo_simulado_musd": 113.74
+    },
+    {
+      "id_escenario": "SIM-163",
+      "duracion_meses": 18,
+      "masa_equipo_kg": 341,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 30,
+      "costo_simulado_musd": 110.49
+    },
+    {
+      "id_escenario": "SIM-164",
+      "duracion_meses": 46,
+      "masa_equipo_kg": 202,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 44,
+      "costo_simulado_musd": 148.12
+    },
+    {
+      "id_escenario": "SIM-165",
+      "duracion_meses": 27,
+      "masa_equipo_kg": 562,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 66,
+      "costo_simulado_musd": 183.0
+    },
+    {
+      "id_escenario": "SIM-166",
+      "duracion_meses": 23,
+      "masa_equipo_kg": 489,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 90,
+      "costo_simulado_musd": 147.64
+    },
+    {
+      "id_escenario": "SIM-167",
+      "duracion_meses": 28,
+      "masa_equipo_kg": 508,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 87,
+      "costo_simulado_musd": 157.88
+    },
+    {
+      "id_escenario": "SIM-168",
+      "duracion_meses": 20,
+      "masa_equipo_kg": 196,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 85,
+      "costo_simulado_musd": 133.57
+    },
+    {
+      "id_escenario": "SIM-169",
+      "duracion_meses": 45,
+      "masa_equipo_kg": 470,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 92,
+      "costo_simulado_musd": 234.85
+    },
+    {
+      "id_escenario": "SIM-170",
+      "duracion_meses": 32,
+      "masa_equipo_kg": 114,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 84,
+      "costo_simulado_musd": 134.48
+    },
+    {
+      "id_escenario": "SIM-171",
+      "duracion_meses": 58,
+      "masa_equipo_kg": 223,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 55,
+      "costo_simulado_musd": 185.65
+    },
+    {
+      "id_escenario": "SIM-172",
+      "duracion_meses": 57,
+      "masa_equipo_kg": 522,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 28,
+      "costo_simulado_musd": 265.28
+    },
+    {
+      "id_escenario": "SIM-173",
+      "duracion_meses": 30,
+      "masa_equipo_kg": 250,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 40,
+      "costo_simulado_musd": 140.83
+    },
+    {
+      "id_escenario": "SIM-174",
+      "duracion_meses": 45,
+      "masa_equipo_kg": 157,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 46,
+      "costo_simulado_musd": 159.73
+    },
+    {
+      "id_escenario": "SIM-175",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 495,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 38,
+      "costo_simulado_musd": 177.16
+    },
+    {
+      "id_escenario": "SIM-176",
+      "duracion_meses": 8,
+      "masa_equipo_kg": 330,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 31,
+      "costo_simulado_musd": 100.92
+    },
+    {
+      "id_escenario": "SIM-177",
+      "duracion_meses": 24,
+      "masa_equipo_kg": 253,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 59,
+      "costo_simulado_musd": 148.99
+    },
+    {
+      "id_escenario": "SIM-178",
+      "duracion_meses": 18,
+      "masa_equipo_kg": 117,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 39,
+      "costo_simulado_musd": 79.6
+    },
+    {
+      "id_escenario": "SIM-179",
+      "duracion_meses": 36,
+      "masa_equipo_kg": 116,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 84,
+      "costo_simulado_musd": 121.08
+    },
+    {
+      "id_escenario": "SIM-180",
+      "duracion_meses": 10,
+      "masa_equipo_kg": 274,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 31,
+      "costo_simulado_musd": 115.19
+    },
+    {
+      "id_escenario": "SIM-181",
+      "duracion_meses": 26,
+      "masa_equipo_kg": 173,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 33,
+      "costo_simulado_musd": 101.06
+    },
+    {
+      "id_escenario": "SIM-182",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 124,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 58,
+      "costo_simulado_musd": 152.9
+    },
+    {
+      "id_escenario": "SIM-183",
+      "duracion_meses": 12,
+      "masa_equipo_kg": 251,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 91,
+      "costo_simulado_musd": 122.18
+    },
+    {
+      "id_escenario": "SIM-184",
+      "duracion_meses": 60,
+      "masa_equipo_kg": 134,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 70,
+      "costo_simulado_musd": 190.1
+    },
+    {
+      "id_escenario": "SIM-185",
+      "duracion_meses": 22,
+      "masa_equipo_kg": 482,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 36,
+      "costo_simulado_musd": 183.9
+    },
+    {
+      "id_escenario": "SIM-186",
+      "duracion_meses": 32,
+      "masa_equipo_kg": 171,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 47,
+      "costo_simulado_musd": 134.23
+    },
+    {
+      "id_escenario": "SIM-187",
+      "duracion_meses": 18,
+      "masa_equipo_kg": 322,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 50,
+      "costo_simulado_musd": 108.38
+    },
+    {
+      "id_escenario": "SIM-188",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 252,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 36,
+      "costo_simulado_musd": 137.02
+    },
+    {
+      "id_escenario": "SIM-189",
+      "duracion_meses": 9,
+      "masa_equipo_kg": 432,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 41,
+      "costo_simulado_musd": 132.04
+    },
+    {
+      "id_escenario": "SIM-190",
+      "duracion_meses": 41,
+      "masa_equipo_kg": 329,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 44,
+      "costo_simulado_musd": 176.5
+    },
+    {
+      "id_escenario": "SIM-191",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 410,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 88,
+      "costo_simulado_musd": 183.0
+    },
+    {
+      "id_escenario": "SIM-192",
+      "duracion_meses": 60,
+      "masa_equipo_kg": 468,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 88,
+      "costo_simulado_musd": 209.01
+    },
+    {
+      "id_escenario": "SIM-193",
+      "duracion_meses": 48,
+      "masa_equipo_kg": 508,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 68,
+      "costo_simulado_musd": 235.13
+    },
+    {
+      "id_escenario": "SIM-194",
+      "duracion_meses": 55,
+      "masa_equipo_kg": 101,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 55,
+      "costo_simulado_musd": 153.61
+    },
+    {
+      "id_escenario": "SIM-195",
+      "duracion_meses": 15,
+      "masa_equipo_kg": 466,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 63,
+      "costo_simulado_musd": 134.89
+    },
+    {
+      "id_escenario": "SIM-196",
+      "duracion_meses": 44,
+      "masa_equipo_kg": 263,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 93,
+      "costo_simulado_musd": 147.04
+    },
+    {
+      "id_escenario": "SIM-197",
+      "duracion_meses": 8,
+      "masa_equipo_kg": 109,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 47,
+      "costo_simulado_musd": 78.57
+    },
+    {
+      "id_escenario": "SIM-198",
+      "duracion_meses": 23,
+      "masa_equipo_kg": 562,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 89,
+      "costo_simulado_musd": 165.46
+    },
+    {
+      "id_escenario": "SIM-199",
+      "duracion_meses": 50,
+      "masa_equipo_kg": 569,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 33,
+      "costo_simulado_musd": 228.5
+    },
+    {
+      "id_escenario": "SIM-200",
+      "duracion_meses": 27,
+      "masa_equipo_kg": 231,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 57,
+      "costo_simulado_musd": 143.09
+    },
+    {
+      "id_escenario": "SIM-201",
+      "duracion_meses": 9,
+      "masa_equipo_kg": 534,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 200.74
+    },
+    {
+      "id_escenario": "SIM-202",
+      "duracion_meses": 48,
+      "masa_equipo_kg": 85,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 40,
+      "costo_simulado_musd": 147.39
+    },
+    {
+      "id_escenario": "SIM-203",
+      "duracion_meses": 14,
+      "masa_equipo_kg": 312,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 81,
+      "costo_simulado_musd": 125.24
+    },
+    {
+      "id_escenario": "SIM-204",
+      "duracion_meses": 25,
+      "masa_equipo_kg": 529,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 63,
+      "costo_simulado_musd": 181.3
+    },
+    {
+      "id_escenario": "SIM-205",
+      "duracion_meses": 24,
+      "masa_equipo_kg": 536,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 77,
+      "costo_simulado_musd": 191.07
+    },
+    {
+      "id_escenario": "SIM-206",
+      "duracion_meses": 60,
+      "masa_equipo_kg": 252,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 95,
+      "costo_simulado_musd": 166.14
+    },
+    {
+      "id_escenario": "SIM-207",
+      "duracion_meses": 9,
+      "masa_equipo_kg": 289,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 62,
+      "costo_simulado_musd": 95.64
+    },
+    {
+      "id_escenario": "SIM-208",
+      "duracion_meses": 33,
+      "masa_equipo_kg": 310,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 46,
+      "costo_simulado_musd": 132.91
+    },
+    {
+      "id_escenario": "SIM-209",
+      "duracion_meses": 59,
+      "masa_equipo_kg": 183,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 74,
+      "costo_simulado_musd": 167.94
+    },
+    {
+      "id_escenario": "SIM-210",
+      "duracion_meses": 42,
+      "masa_equipo_kg": 484,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 95,
+      "costo_simulado_musd": 192.51
+    },
+    {
+      "id_escenario": "SIM-211",
+      "duracion_meses": 27,
+      "masa_equipo_kg": 467,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 69,
+      "costo_simulado_musd": 178.23
+    },
+    {
+      "id_escenario": "SIM-212",
+      "duracion_meses": 19,
+      "masa_equipo_kg": 600,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 29,
+      "costo_simulado_musd": 193.49
+    },
+    {
+      "id_escenario": "SIM-213",
+      "duracion_meses": 55,
+      "masa_equipo_kg": 280,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 46,
+      "costo_simulado_musd": 192.81
+    },
+    {
+      "id_escenario": "SIM-214",
+      "duracion_meses": 16,
+      "masa_equipo_kg": 535,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 88,
+      "costo_simulado_musd": 174.27
+    },
+    {
+      "id_escenario": "SIM-215",
+      "duracion_meses": 51,
+      "masa_equipo_kg": 140,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 64,
+      "costo_simulado_musd": 172.88
+    },
+    {
+      "id_escenario": "SIM-216",
+      "duracion_meses": 40,
+      "masa_equipo_kg": 425,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 63,
+      "costo_simulado_musd": 191.45
+    },
+    {
+      "id_escenario": "SIM-217",
+      "duracion_meses": 34,
+      "masa_equipo_kg": 311,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 90,
+      "costo_simulado_musd": 166.21
+    },
+    {
+      "id_escenario": "SIM-218",
+      "duracion_meses": 47,
+      "masa_equipo_kg": 598,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 69,
+      "costo_simulado_musd": 255.18
+    },
+    {
+      "id_escenario": "SIM-219",
+      "duracion_meses": 56,
+      "masa_equipo_kg": 478,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 53,
+      "costo_simulado_musd": 265.95
+    },
+    {
+      "id_escenario": "SIM-220",
+      "duracion_meses": 32,
+      "masa_equipo_kg": 452,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 73,
+      "costo_simulado_musd": 164.16
+    },
+    {
+      "id_escenario": "SIM-221",
+      "duracion_meses": 30,
+      "masa_equipo_kg": 109,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 55,
+      "costo_simulado_musd": 85.53
+    },
+    {
+      "id_escenario": "SIM-222",
+      "duracion_meses": 33,
+      "masa_equipo_kg": 564,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 80,
+      "costo_simulado_musd": 203.74
+    },
+    {
+      "id_escenario": "SIM-223",
+      "duracion_meses": 40,
+      "masa_equipo_kg": 274,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 28,
+      "costo_simulado_musd": 130.15
+    },
+    {
+      "id_escenario": "SIM-224",
+      "duracion_meses": 15,
+      "masa_equipo_kg": 302,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 40,
+      "costo_simulado_musd": 126.86
+    },
+    {
+      "id_escenario": "SIM-225",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 435,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 37,
+      "costo_simulado_musd": 200.27
+    },
+    {
+      "id_escenario": "SIM-226",
+      "duracion_meses": 8,
+      "masa_equipo_kg": 179,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 68,
+      "costo_simulado_musd": 69.83
+    },
+    {
+      "id_escenario": "SIM-227",
+      "duracion_meses": 50,
+      "masa_equipo_kg": 234,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 77,
+      "costo_simulado_musd": 177.7
+    },
+    {
+      "id_escenario": "SIM-228",
+      "duracion_meses": 60,
+      "masa_equipo_kg": 275,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 87,
+      "costo_simulado_musd": 218.38
+    },
+    {
+      "id_escenario": "SIM-229",
+      "duracion_meses": 29,
+      "masa_equipo_kg": 265,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 36,
+      "costo_simulado_musd": 106.63
+    },
+    {
+      "id_escenario": "SIM-230",
+      "duracion_meses": 37,
+      "masa_equipo_kg": 181,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 79,
+      "costo_simulado_musd": 155.72
+    },
+    {
+      "id_escenario": "SIM-231",
+      "duracion_meses": 56,
+      "masa_equipo_kg": 214,
+      "complejidad_tecnica": 1,
+      "autonomia_pct": 27,
+      "costo_simulado_musd": 149.44
+    },
+    {
+      "id_escenario": "SIM-232",
+      "duracion_meses": 12,
+      "masa_equipo_kg": 532,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 32,
+      "costo_simulado_musd": 177.05
+    },
+    {
+      "id_escenario": "SIM-233",
+      "duracion_meses": 36,
+      "masa_equipo_kg": 566,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 37,
+      "costo_simulado_musd": 224.66
+    },
+    {
+      "id_escenario": "SIM-234",
+      "duracion_meses": 35,
+      "masa_equipo_kg": 150,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 94,
+      "costo_simulado_musd": 117.47
+    },
+    {
+      "id_escenario": "SIM-235",
+      "duracion_meses": 41,
+      "masa_equipo_kg": 334,
+      "complejidad_tecnica": 4,
+      "autonomia_pct": 38,
+      "costo_simulado_musd": 176.32
+    },
+    {
+      "id_escenario": "SIM-236",
+      "duracion_meses": 17,
+      "masa_equipo_kg": 394,
+      "complejidad_tecnica": 3,
+      "autonomia_pct": 80,
+      "costo_simulado_musd": 144.44
+    },
+    {
+      "id_escenario": "SIM-237",
+      "duracion_meses": 58,
+      "masa_equipo_kg": 184,
+      "complejidad_tecnica": 2,
+      "autonomia_pct": 71,
+      "costo_simulado_musd": 163.64
+    },
+    {
+      "id_escenario": "SIM-238",
+      "duracion_meses": 48,
+      "masa_equipo_kg": 164,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 58,
+      "costo_simulado_musd": 170.57
+    },
+    {
+      "id_escenario": "SIM-239",
+      "duracion_meses": 28,
+      "masa_equipo_kg": 517,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 64,
+      "costo_simulado_musd": 212.22
+    },
+    {
+      "id_escenario": "SIM-240",
+      "duracion_meses": 41,
+      "masa_equipo_kg": 265,
+      "complejidad_tecnica": 5,
+      "autonomia_pct": 78,
+      "costo_simulado_musd": 190.46
+    }
+  ]
+}
