@@ -32,7 +32,9 @@ Desarrollar dos pipelines experimentales que permitan **explorar estrategias de 
 
 ## 2. Contexto e investigación documental
 
-![Infografía sobre minería de asteroides](./images/Infografía sobre minería de asteroides.png)
+## 2. Contexto e investigación documental
+
+![Infografía sobre minería de asteroides](<./images/Infografía sobre minería de asteroides.png>)
 
 *Figura 1. Infografía utilizada en el examen parcial. Fuente: material del caso proporcionado para la evaluación.*
 
