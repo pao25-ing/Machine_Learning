@@ -180,4 +180,21 @@ async function start(){
   const toast=el("status-toast");toast.textContent="Error al cargar datos: "+error.message;toast.hidden=false;
  }
 }
-document.addEventListener("DOMContentLoaded",start);
+function setupNavigation(){
+ const toggle=el("menu-toggle"), menu=el("mobile-menu");
+ if(!toggle||!menu)return;
+ toggle.addEventListener("click",()=>{
+  const opening=menu.hidden;
+  menu.hidden=!opening;
+  toggle.setAttribute("aria-expanded",String(opening));
+  toggle.setAttribute("aria-label",opening?"Cerrar menú":"Abrir menú");
+  toggle.textContent=opening?"×":"☰";
+ });
+ menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{
+  menu.hidden=true;
+  toggle.setAttribute("aria-expanded","false");
+  toggle.setAttribute("aria-label","Abrir menú");
+  toggle.textContent="☰";
+ }));
+}
+document.addEventListener("DOMContentLoaded",()=>{setupNavigation();start()});
